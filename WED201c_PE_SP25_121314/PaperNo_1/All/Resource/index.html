@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ca Mau Tourism</title>
+
+<!--Embed your css here-->
+<link rel="stylesheet" href="css/styleindex.css">
+
+</head>
+
+<body class="big-body">
+
+<div> <!--div contains all the web page content-->
+	
+	<div class="header"> <!--div contains header content-->
+
+		<div class="logo">
+			<a href="index.html"><img src="images/LogoCamau.PNG" alt="Mui Ca Mau"></a>
+		</div>
+
+		<div class="nav-bar"> 
+		  <ul class="display-flex">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Tours</a></li>
+			<li><a href="#">Promotion Tours</a></li>
+			<li><a href="#">Contact</a></li>
+		  </ul>  
+		</div>
+
+		<div class="search-bar">
+			<form>
+				<input type="text" placeholder="Search Tour">
+				<button type="submit">Search</button>
+			</form>
+
+		</div>
+
+	</div> <!-- finish div contains header content-->
+	
+<!------------------------------------------------------------------------------------------------------------->
+
+	<div class="tour-img-group"> <!--div containing content Ca Mau Cape-->
+
+		<div>
+			<img class="img" src="images/muicamau.jpg" alt="Mui Ca Mau" />
+		</div>
+
+		<div class="detail">
+
+			<h1>CA MAU CAPE TOUR 2 DAYS 2 NIGHTS DEPARTING AT NIGHT 3 STAR HOTEL</h1>
+
+			<p>Enjoy delicious southwestern dishes</p>
+			<p>Departure Time: Tuesday, Friday And Sunday Nights Every Week</p>
+			<p>Hotel: 3-star hotel near Ninh Kieu wharf night market and Ca Mau city center</p>
+			<p>Vehicle: High Quality Car</p>
+			
+			<p>
+				<img class="imge" src="images/Phone.png" alt="Mui Ca Mau" /> <span class="hotline">Hotline: 0971 666 399 - 0935 999 888</span>
+			</p>
+
+			<p>
+				<img class="imge" src="images/Email.png" alt="Mui Ca Mau" /> <span class="hotline">CaMauTourism@gmail.com</span>
+			</p>
+
+		</div>
+
+		<div style="clear: both"></div>
+
+	</div> <!-- Finish div containing content Ca Mau Cape-->
+	
+<!------------------------------------------------------------------------------------------------------------->
+
+	<div class="details"> <!--div containing the content Visit The Mangrove Forest-->
+
+		<h1>Visit The Mangrove Forest</h1>
+
+		<div>
+			<img class="imges" src="images/mangrove.jpg" alt=" mangrove forest Ca mau" />
+		</div>
+
+		<div>
+			<p>
+				One of the experiences not to be missed when coming to Mui Ca Mau Tourist Area is visiting the mangrove forest. This is part of Mui Ca Mau National Park, which is recognized by UNESCO as a World Biosphere Reserve.
+			</p>
+
+			<p>
+				Stepping into the forest, you will be overwhelmed by the majestic natural scenery with towering mangrove, acacia, and parrot trees, the tree roots intertwined to create a green wall. The fresh, cool air, the chirping of birds, the rustling of leaves combined with the murmuring of the waves create a wonderful natural harmony.
+			</p>
+
+			<p>
+				You can choose to walk on the trails winding through the forest, or rent a boat to weave through small canals to explore deeper inside. Along the way, you will encounter wild animals such as monkeys, snakes, birds, crocodiles... living in the natural environment. Especially, if you come during the bird migration season, you will admire thousands of birds flying in the sky, creating an extremely impressive scene.
+			</p>
+		</div>
+
+		<div style="clear: both"></div>
+
+	</div> <!-- Finish div containing the content Visit The Mangrove Forest-->
+	
+<!------------------------------------------------------------------------------------------------------------->
+
+	<div class="details"> <!--div contains the content Tour Registration Information-->
+
+		<h1>Tour Registration Information</h1>
+
+		<div>
+			<img src="images/Car.jpg" alt="Car Ca Mau" />
+		</div>
+
+		<div class="book-tour-menu">
+			<div class="center">
+			  <div class="top-menu">
+				<h2>----------Chose your Favourite Tour---------</h2>
+			  </div>
+			  <div class="body-menu">
+				<ul class="list-group">
+				  <li>
+					Tour:
+					<select onchange="displayPrice()" id="tour" class="tour">
+					  <option value="muine">TP.HCM - Mũi Né</option>
+					  <option value="camau">TP.HCM - Cà Mau</option>
+					  <option value="vungtau">TP.HCM - Vũng Tàu</option>
+					  <option value="dalat">TP.HCM - Đà Lạt</option>
+					  <option value="hotram">TP.HCM - Hồ Tràm</option>
+					</select>
+					<span id="display" class="display"></span>
+				  </li>
+				  <li>
+					Number of People:
+					<input type="number" id="number" />
+				  </li>
+				  <li>
+					Departure Day:
+					<input type="date" class="begin-day" />
+				  </li>
+				  <li>
+					End Day:
+					<input type="date" class="end-day" />
+				  </li>
+				  <li>
+					Full Name:
+					<input type="text" class="name" />
+				  </li>
+				  <li>
+					Phone Number:
+					<input type="text" class="number-phone" />
+				  </li>
+				</ul>
+			  </div>
+			  <button onclick="CalTotal()" class="bt-tour">Book Tour</button>
+			</div>
+		  </div> <!-- Finish div containing tour registration form-->
+
+		<div style="clear: both"></div>
+		
+	</div> <!-- Finish div contains the content Tour Registration Information-->
+
+<!------------------------------------------------------------------------------------------------------------->
+
+	<div class="footer"> <!--div contains the footer content-->
+	
+		<div class="table-footers">
+			<h3>Contact</h3>
+			<p>Email : CaMauTourism@gmail.com</p>
+			<p>Address: 100 Dien Bien Phu,District 3, HCMC</p>
+			<p>Phone : 012456789222</p>
+		</div>
+
+		<div class="table-footers">
+			<h3>Services</h3>
+			<p>Breakfast buffet</p>
+			<p>Visit Ca Mau Mangrove Forest by boat</p>
+			<p>Visit Dam Doi area</p>
+		</div>
+
+	</div> <!-- Finish div contains the footer content-->
+	
+	
+</div> <!--finish div contains all the web page content-->
+		
+	
+</body>
+
+
+</html>
+
+

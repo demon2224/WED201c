@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>VietNamTourist</title>
+
+	<!--Embed CSS here-->
+	<link rel="stylesheet" href="CSS/styleindex.css">
+</head>
+
+<body>
+
+	<div class="row" id="header-container"> <!--content header-->
+
+		<div class="col-3"> <!--content logo-->
+			<a href="index.html"><img id="logo" src="images/Logo.PNG"></a>
+		</div> <!--finish content logo-->
+
+		<div id="menu-container" class="col-6"> <!--content menu-->
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Tours</a></li>
+				<li><a href="#">Promotion Tours</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div><!--finish content menu-->
+
+		<div id="search-box-container" class="col-3"> <!--content search-->
+			<form>
+				<input type="text" placeholder="Search Tour">
+				<button id="search-button" type="submit">Search</button>
+			</form>
+		</div> <!--finish content search-->
+
+	</div> <!--finish content header-->
+
+	<div class="row" id="banner-container"> <!--Detailed content first-->
+
+		<div class="col-7"> <!--content left banner -->
+			<img class="fit-container" src="images/banner_danang.jpg" alt=" Da Nang Welcome" />
+		</div><!--finish content left Banner-->
+
+
+
+		<div id="right-banner-container" class="col-5"> <!--Content on the right side of Banner-->
+
+			<h1 id="banner-title">Welcome to Da Nang</h1>
+			<br>
+			<div class="row">
+				<div class="col-4">
+					<img class="banner-img" src="images/Deluxe_doi_1.jpg" alt="Da nang Single bed Deluxe " />
+				</div>
+				<div class="col-8">
+					<p>Deluxe double 1 bed</p>
+					<p class="price">Price : 50$/night</p>
+					<p>Pre-order discount 5%</p>
+				</div>
+
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-4">
+					<img class="banner-img" src="images/deluxe_doi_2.jpg" alt="Da nang double bed Deluxe " />
+				</div>
+				<div class="col-8">
+					<p>Deluxe Single bed 2 beds</p>
+					<p class="price">Price : 85$/night</p>
+					<p>Pre-order discount 8%</p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-4">
+					<img class="banner-img" src="images/Bietthu.jpg" alt="Villa with 3 bedrooms" />
+				</div>
+				<div class="col-8">
+					<p>Villa with 3 bedrooms </p>
+					<p class="price">Price : 300$/night</p>
+					<p>Pre-order discount 10%</p>
+				</div>
+
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-4">
+					<img class="banner-img" src="images/monan.jpg" alt="Da Nang specialties" />
+				</div>
+				<div class="col-8">
+					<p>Specializes in serving Da Nang specialties.</p>
+					<p>Tourists can order food in advance or go to the restaurant to order food according to their
+						preferences.</p>
+				</div>
+			</div>
+
+		</div> <!-- Finish Content on the right side of Banner-->
+
+	</div><!-- Finish Detailed content first-->
+
+
+	<div> <!--content title-->
+		<h2 id="content-title">HOTEL INFORMATION AND TOUR BOOKING</h2>
+	</div> <!-- Finish content title -->
+
+
+	<div class="row" id="main-content-container"> <!--Detailed content of HOTEL INFORMATION AND TOUR BOOKING -->
+
+		<div class="col-6"> <!--content left image-->
+			<img class="fit-container" src="images/HOLIDAY BEACH DANANG.jpg" alt="Hotel Da Nang" />
+		</div> <!-- Finish content left image-->
+
+
+		<div id="form-container" class="col-6"> <!--content Your Tour Booking Information -->
+			<h3 id="form-title">Your Tour Booking Information</h3>
+
+			<div class="form row"> <!--content tour-->
+				<label class="col-3">Tour</label>
+				<select class="col-6" name="tour">
+					<option>TPHCM - Da Nang</option>
+					<option>TPHCM - Nha Trang</option>
+					<option>TPHCM - Long Hai</option>
+					<option>TPHCM - Phu Quoc</option>
+					<option>TPHCM - Da Lat</option>
+					<option>TPHCM - Bana Hill</option>
+					<option>TPHCM - Vung Tau</option>
+				</select>
+			</div> <!-- Finish content tour-->
+
+			<div class="form row">
+				<label class="col-3">Number of people</label>
+				<input class="col-6" type="text" name="songuoi" />
+			</div>
+
+			<div class="form row">
+				<label class="col-3"> Departure day</label>
+				<input class="col-6" type="text" name="ngaykh" />
+			</div>
+
+			<div class="form row">
+				<label class="col-3"> End date </label>
+				<input class="col-6" type="text" name="ngaykt" />
+			</div>
+
+			<div class="form row">
+				<label class="col-3"> FullName </label>
+				<input class="col-6" type="text" name="namekh" />
+			</div>
+
+			<div class="form row">
+				<label class="col-3"> Phone </label>
+				<input class="col-6" type="text" name="phone" />
+			</div>
+
+			<div style="text-align: center;" class="form row">
+				<p><button id="book-btn">Book Tour</button></p>
+			</div>
+
+		</div> <!--content Your Tour Booking Information -->
+
+	</div> <!-- Finish Detailed content of HOTEL INFORMATION AND TOUR BOOKING -->
+
+
+	<div> <!--content title TOURIST FEEDBACK-->
+		<h2 id="feedback-title">TOURIST FEEDBACK</h2>
+	</div> <!-- Finsh content title TOURIST FEEDBACK-->
+
+	<div class="row" id="feedback-container"> <!--Detailed content of feedback-->
+
+		<div class="col-3">
+			<img src="images/customer01.jpg" alt="Feedback Da nang" />
+			<p>
+				<img src="images/star.PNG" alt="Da Nang" />
+			</p>
+			<h3>Kim Tae Hee</h3>
+			<p>The service here is very good, The room here is very clean and beautiful</p>
+		</div>
+
+		<div class="col-3">
+
+			<img src="images/customer02.jpg" alt="Feedback Da nang" />
+			<p>
+				<img src="images/star.PNG" alt="Da Nang" />
+			</p>
+			<h3>Kim Soo-hyun</h3>
+			<p>The service here is very good, the staff is enthusiastic</p>
+		</div>
+
+		<div class="col-3">
+			<img src="images/customer03.jpg" alt="Feedback Da nang" />
+			<p>
+				<img src="images/star.PNG" alt="Da Nang" />
+			</p>
+			<h3>Song Hye Kyo</h3>
+			<p>Beautiful scenery, service here is very good, enthusiastic staff</p>
+		</div>
+
+		<div class="col-3">
+			<img src="images/customer04.jpg" alt="Feedback Da nang" />
+			<p>
+				<img src="images/star.PNG" alt="Da Nang" />
+			</p>
+			<h3>Bae Hyun Sung</h3>
+			<p>Great trip, Thank you very much!!!</p>
+		</div>
+
+	</div> <!-- Finish Detailed content of feedback-->
+
+
+	<div id="footer"> <!--content footer-->
+		<div class="row">
+			<div class="col-6"> <!--Content on the left side of the footer-->
+				<h3>Contact</h3>
+				<p>Email : VietNamTourist@gmail.com</p>
+				<p>Address: 100 Le Quy Don,District 3, HCMC</p>
+				<p>Phone : 012456789777</p>
+			</div> <!-- Finish Content on the left side of the footer-->
+
+			<div class="col-6" id = "footer-right"> <!--Content on the right side of the footer-->
+				<h3>Services</h3>
+				<p>Breakfast buffet</p>
+				<p>Free swimming pool</p>
+				<p>Teambuiding</p>
+			</div> <!--Finish Content on the left side of the footer-->
+		</div>
+
+		<div>
+			<h5 style="text-align: center;" class="copyright">&copy; Copyright 2024. VietNamTourist.com</h5>
+		</div>
+
+	</div> <!-- Finsh content footer-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+/* 12 columns grid-system declaration */
+/* Ko dung bootstrap*/
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* CSS style*/
+#header-container, #banner-container, #main-content-container, #feedback-container{
+    margin-left: 2vw;
+}
+
+#logo {
+    width: 25%;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu-container {
+    text-align: center;
+}
+
+#search-box-container {
+    text-align: end;
+}
+
+li a {
+    text-decoration: none;
+    color: darkturquoise;
+    font-size: 1.2em;
+}
+
+#search-button {
+    background-color: black;
+    color: white;
+}
+
+.fit-container {
+    width: 100%;
+    height: 100%;
+}
+
+#banner-title {
+    color: darkturquoise;
+    margin: 0px;
+}
+
+#banner-container {
+    display: flex;
+    gap: 1vw;
+}
+
+.banner-img{
+    width: 90%;
+}
+
+.banner-content div img {
+    width: 50%;
+    height: 100%;
+}
+
+.price {
+    color: darkorange;
+}
+
+#content-title,
+#feedback-title {
+    color: darkturquoise;
+    text-align: center;
+}
+
+#main-content-container {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+#form-title {
+    color: darkorange;
+    text-align: center;
+}
+
+#form-container {
+    background-color: gainsboro;
+    font-size: 1.2em;
+}
+
+.form {
+    margin: 5vh;
+}
+
+#book-btn {
+    background-color: darkorange;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: darkorange;
+}
+
+#book-btn:hover {
+    cursor: pointer;
+}
+
+#feedback-container {
+    text-align: center;
+}
+
+#feedback-container div img {
+    border-radius: 100%;
+}
+
+#footer {
+    background-color: rgb(20, 142, 173);
+    color: white;
+    padding: 1vh 0vh;
+}
+
+#footer div div{
+    position: relative;
+    left: 10vw;
+}
+
+#footer-right{
+    width: fit-content;
+}
+

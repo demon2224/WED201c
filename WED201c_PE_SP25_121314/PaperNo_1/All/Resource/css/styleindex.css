@@ -1,0 +1,177 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 70px;
+}
+.logo img{
+    width: 110px;
+    height: 110px;
+}
+.display-flex{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 25px 200px 25px 180px;
+    padding-right: 40px;
+    width: 750px;
+    height: 30px;
+}
+.display-flex li a{
+    color: #87C3E3;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.search-bar{
+    margin-top: 28px;
+}
+.search-button{
+    background-color: black;
+    color: white;
+}
+.tour-img-group{
+    display: flex;
+    margin: 40px 20px 0px 20px;
+}
+
+
+.img{
+    height: auto;
+    width: 125%;
+}
+.detail{
+    margin-left: 180px;
+    height: auto;
+    width: 750px;
+}
+.detail h1{
+    color: rgb(9, 204, 191);
+    text-align: left;
+    font-size: 35px;
+}
+.detail p{
+    color: orange;
+    font-style: italic;
+    font-size: 25px;
+}
+.imge{
+    margin-top: 40px;
+    height: auto;
+    width: 30px;
+}
+.hotline{
+    color: #87C3E3;
+}
+
+.details{
+    height: auto;
+    width: 100%;
+}
+
+.details h1{
+    color: rgb(9, 204, 191);
+    text-align: center;
+    font-size: 35px;
+}
+.imges{
+    height: auto;
+    width: 30%;
+}
+.details p{
+    height: auto;
+    width: 750px;
+}
+
+.footer{
+    background-color: rgb(9, 204, 191);
+    color: white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+.table-footers{
+    text-align: left;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 200px;
+    padding-left: 30px;
+}
+.table-footers h3{
+    font-style: bold;
+}
+.big-body{
+    margin: 0px 0px 0px 0px;
+}
+.copyright{
+    margin-bottom: 0px;
+    padding: 30px 0px 30px 0px;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.book-tour-menu{
+    width: 600px;
+    height: 520px;
+    margin: 50px auto;
+    display: flex;
+}
+.center{
+    width: 550px;
+    height: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+.top-menu{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(9, 204, 191);
+}
+.body-menu{
+    background-color: rgb(190, 192, 192);
+    line-height: 50px;
+}
+.body-menu li{
+    font-size: 20px;
+    list-style: none;
+}
+.bt-tour{
+    color: white;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    background-color: orange;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.total-div{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.tour{
+   margin-left: 122px;
+}
+.begin-day{
+    margin-left: 30px;
+}
+.end-day{
+    margin-left: 84px;
+}
+.name{
+    margin-left: 69px;
+}
+.number-phone{
+    margin-left: 26px;
+}
+.list-group{
+    margin-top: 0px;
+}
+.display{
+    color: orangered;
+    margin-left: 83px;
+}
+

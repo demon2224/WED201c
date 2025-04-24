@@ -1,0 +1,128 @@
+.logo{
+    margin: 3px 0px 3px 0px;
+    display: flex;
+    justify-self: center;
+}
+
+.collapse{
+    display: flex;
+    justify-self: center;
+}
+
+.content{
+    margin: 10px;
+}
+
+.left>form>div{
+    border: 1px solid #2CB5DA ;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 0px;
+    padding: 0px;
+}
+
+.left img{
+    width: 30px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.left>form>div>h4{
+    background-color: #DFEDEC;
+    margin: 0px;
+    color: #2CB5DA;
+}
+
+.left>form>div>p{
+    margin: 10px;
+}
+
+.title{
+    text-align: center;
+    color: #2CB5DA;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+.models>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.models img{
+    width: 70%;
+    border-radius: 100%;
+}
+.Seller img{
+    width: 100%;
+}
+
+.Seller{
+    display: flex;
+    
+}
+
+.Seller>div{
+    border: 1px solid #2CB5DA;
+    padding: 0px;
+    margin: 10px;
+}
+
+.Seller h4{
+    color: orange;
+    padding: 0px 5px 0px 5px;
+}
+
+.Seller p{
+    padding: 10px 5px 0px 5px;
+}
+
+.Seller>div>div>div{
+    justify-self: center;
+    background-color: #2CB5DA;
+    text-align: center;
+    color: white;
+    width: 80px;
+    padding: 12px 0px;
+    margin-bottom: 10px;  
+}
+
+.Finish img{
+    width: 100%;
+}
+
+.Finish{
+    text-align: center;
+    color: orange;
+}
+
+.footer{
+    background-color: #10885A;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .Seller{
+        display: contents;
+    }
+    
+    .Seller>div{
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .collapse{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,92 @@
+body{
+    overflow-x: hidden;
+}
+
+.header-container{
+    padding: 0;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+/* .header-logo img{
+    width: 120px 170px;
+} */
+.menu{
+    display: flex;
+    justify-content: center;
+    background-color: #0EC0C3;
+    height: 50px;
+}
+
+.menu li.active{
+    background-color: #ED8116;
+}
+
+.airblade h2{
+    text-align: center;
+    color: #0EC0C3;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.and-image{
+    margin-top: 500px;
+    padding: 15px;
+}
+
+.textbody{
+    color: #0EC0C3;
+    text-align: center;    
+}
+
+.pricebody{
+    text-align: center;
+    color: #ED8116;
+    margin: 200px  70px 5px 70px ;
+}
+
+.pricebody-title{
+    text-align: center;
+    color: white;
+    background-color: #0EC0C3;
+    padding: 7px 0;
+    margin: 0 70px;   
+}
+
+.form-group{
+    width: 363px;
+    height: 59px;
+}
+
+.col-md-3 button{
+    padding: 10px;
+    color: white;
+    background-color: #ED8116;
+}
+
+.footer{
+    color: white;
+    background-color: #0EC0C3;
+    text-align: center;
+    padding: 5px 0;
+}
+
+@media only screen and (max-width: 375px){
+    .menu{
+        justify-content: flex-end;
+        height: max-content;
+    }
+
+    .nvabar-header{
+        width: 100vw;
+    }
+
+    .col-md-3{
+        width: 400px;
+        height: max-content;
+    }
+}

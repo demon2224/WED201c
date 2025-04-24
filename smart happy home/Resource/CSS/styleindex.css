@@ -1,0 +1,167 @@
+
+.header-logo{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo img{
+ width: 250px;
+ height: 100px;
+}
+.header-menu{
+    background-color: rgb(63, 214, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+}
+.header-menu ul li{
+    margin: 0 20px;
+}
+.header-menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.content-first{
+    background-color: rgb(240, 237, 237);
+    display: flex;
+   align-items: center;
+}
+.content-first img{
+    width: 100vh;
+    height: 500px;
+}
+.content-firsttext h2{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+.content-firsttext p{
+    margin: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+    word-spacing: 8px;
+}
+.content-seller{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.content-bestseller{
+   justify-content: center   ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-bestseller h1{
+    text-align: center;
+    width: 100%;
+    color: rgb(63, 214, 201);
+}
+.bestseller {
+    background-color: rgb(240, 237, 237);
+    padding: 15px;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bestseller img{
+    width: 200px;
+    height: 200px;
+}
+.price{
+color: red;
+}
+.buynow{
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 25px; 
+    box-sizing: border-box; 
+}
+.content-sale{
+    margin-right: 30px;
+}
+.content-sale h1{
+    text-align: center;
+    color: rgb(63, 214, 201);
+}
+.content-sale table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.content-sale th,td{
+    border: 1px solid black;
+    padding: 15px;
+}
+.sale{
+    background-color: rgb(63, 214, 201);
+    color: white;
+}
+.content-consultation{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(240, 237, 237);
+}
+.content-consultation img{
+    padding: 30px;
+    width: 500px;
+    height: 320px;
+}
+.content-consultation h1{
+    color: rgb(63, 214, 201);
+    width: 100%;
+   text-align: center;
+}
+.form-consultation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.form-input {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.form-input label {
+    color: orange;
+    width: 100px; 
+    margin-right: 10px; 
+    text-align: left;
+}
+
+.form-input input {
+    flex: 1; 
+    padding: 5px; 
+    font-size: 14px;
+}
+.form-button{
+    display: flex;
+    justify-content: right;
+}
+.buton{
+    margin-right: 10px;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+}
+.content-footer{
+    background-color: rgb(63, 214, 201);
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
